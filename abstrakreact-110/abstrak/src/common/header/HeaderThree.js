@@ -23,8 +23,8 @@ const HeaderThree = () => {
                         <div className="header-navbar">
                             <div className="header-logo">
                                 <Logo limage="/images/logo.svg"
-                                dimage="/images/logo-3.svg"
-                                simage="/images/logo-2.svg"
+                                    dimage="/images/logo.svg"
+                                    simage="/images/logo.svg"
                                 />
                             </div>
                             <div className="header-action">

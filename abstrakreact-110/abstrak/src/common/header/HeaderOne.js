@@ -21,10 +21,10 @@ const HeaderOne = () => {
         document.querySelector('body').classList.toggle("mobilemenu-show");
 
         var elements = document.querySelectorAll('.mobilemenu-popup .menu-item-has-children > a');
-    
-        for(var i in elements) {
-            if(elements.hasOwnProperty(i)) {
-                elements[i].onclick = function() {
+
+        for (var i in elements) {
+            if (elements.hasOwnProperty(i)) {
+                elements[i].onclick = function () {
                     this.parentElement.querySelector('.axil-submenu').classList.toggle("active");
                     this.classList.toggle("open");
                 }
@@ -41,8 +41,8 @@ const HeaderOne = () => {
                         <div className="header-navbar">
                             <div className="header-logo">
                                 <Logo limage="/images/logo.svg"
-                                dimage="/images/logo-3.svg"
-                                simage="/images/logo-2.svg"
+                                    dimage="/images/logo.svg"
+                                    simage="/images/logo.svg"
                                 />
                             </div>
                             <div className="header-main-nav">
@@ -74,7 +74,7 @@ const HeaderOne = () => {
                 </div>
             </header>
             <OffcanvasMenu offcanvasShow={showOffcanvas} offcanvasHide={OffcanvasHandleClose} />
-            <MobileMenu MobileHandler={MobileMenuHandler}/>
+            <MobileMenu MobileHandler={MobileMenuHandler} />
         </>
     )
 }
