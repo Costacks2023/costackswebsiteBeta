@@ -11,16 +11,16 @@ const AboutFour = () => {
                     <div className="row">
                     <div className="col-xl-7 col-lg-6">
                         <div className="case-study-featured-thumb text-start">
-                        <img src={process.env.PUBLIC_URL + "/images/others/case-study-4.png"} alt="travel" />
+                        {/* <img src={process.env.PUBLIC_URL + "/images/others/case-study-4.png"} alt="travel" /> */}
                         </div>
                     </div>
                     <div className="col-xl-5 col-lg-6">
                         <div className="case-study-featured">
                         <div className="section-heading heading-left">
-                            <span className="subtitle">Who we are</span>
+                            {/* <span className="subtitle">Who we are</span> */}
                             <h2 className="title">Building software for world changers</h2>
-                            <p>Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis.</p>
-                            <p>Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.</p>
+                            <p>We build softwares for all businesses irrespective of their domain or the segment they serve, we aim to arm all brilliant ideas with the necessary IT applications.</p>
+                            <p>So far we have worked with a multitude of technologies and payment gateways to provide the finest of solutions to people.</p>
                             <Link to="#" className="axil-btn btn-fill-primary btn-large">Read More</Link>
                         </div>
                         <div className="case-study-counterup">
