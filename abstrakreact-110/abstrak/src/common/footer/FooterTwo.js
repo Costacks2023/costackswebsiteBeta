@@ -7,12 +7,12 @@ const FooterTwo = () => {
     return (
         <footer className="footer-area footer-dark">
             <div className="container">
-                <div className="footer-bottom">
+                {/* <div className="footer-bottom">
                 <div className="row">
                     <div className="col-md-6">
-                    <div className="footer-copyright">
+                     <div className="footer-copyright">
                         <span className="copyright-text">© {new Date().getFullYear()}. All rights reserved by <a href="https://axilthemes.com/">Axilthemes</a>.</span>
-                    </div>
+                    </div> 
                     </div>
                     <div className="col-md-6">
                     <div className="footer-bottom-link">
@@ -22,8 +22,8 @@ const FooterTwo = () => {
                         </ul>
                     </div>
                     </div>
-                </div>
-                </div>
+                </div> 
+                </div>*/}
             </div>
         </footer>
     )

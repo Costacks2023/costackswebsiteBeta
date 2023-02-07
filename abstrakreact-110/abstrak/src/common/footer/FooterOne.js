@@ -31,7 +31,7 @@ const FooterOne = ({parentClass}) => {
                             <div className="footer-widget border-end">
                                 <div className="footer-newsletter">
                                     <h2 className="title">Get in touch!</h2>
-                                    <p>Fusce varius, dolor tempor interdum tristique, dui urna bib endum magna, ut ullamcorper purus</p>
+                                    <p>Enter your email address to receive latest updates related to our products and services.</p>
                                     <form>
                                         <div className="input-group">
                                             <span className="mail-icon"><FaEnvelopeOpen /> </span>
@@ -86,7 +86,7 @@ const FooterOne = ({parentClass}) => {
                         </div>
                     </div>
                 </div>
-                <div className="footer-bottom"> 
+                {/* <div className="footer-bottom"> 
                     <div className="row">
                         <div className="col-md-6">
                             <div className="footer-copyright">
@@ -102,8 +102,8 @@ const FooterOne = ({parentClass}) => {
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
+                </div>*/}
+            </div> 
         </footer>
     )
 }
