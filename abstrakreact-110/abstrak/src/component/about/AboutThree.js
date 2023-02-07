@@ -5,27 +5,27 @@ const Datas = [
     {
         id: 1,
         title: "Exceed clients’ and colleagues’ expectations",
-        para: "Ut id orci ultricies, gravida arcu ac, elementum eros. Curabitur tortor ipsum, imperdiet eget odio ac, faucibus ultricies nisl. Maecenas scelerisque dignissim elit."
+        para: "We have always managed to outperform the expectations set by our clients as we try to create products that easily beat the status quo of existing products on the market."
     },
     {
         id: 2,
         title: "Take ownership and question the status quo in a constructive manner",
-        para: "Nulla facilisi. Vestibulum vel urna eget magna condimentum faucibus. Sed arcu mi, semper sed suscipit vel, rhoncus vel justo."
+        para: "When it comes to getting into problem solving mode we challenge our own status quo at every step in order to produce the create pathbreaking products."
     },
     {
         id: 3,
         title: "Be brave, curious and experiment – learn from all successes and failures",
-        para: "Quisque aliquet quis est in faucibus. Aenean eget lorem ac risus placerat convallis eget a eros. Suspendisse dignissim ultrices tellus, id placerat mauris lacinia a."
+        para: "Our products always outshine those already available on the market as we love to experiment as we want to bring out the best within us at all levels."
     },
     {
         id: 4,
         title: "Act in a way that makes all of us proud",
-        para: "Proin dignissim facilisis tortor a mattis. Morbi non maximus nunc, ut mattis tellus. In hac habitasse platea dictumst. Mauris viverra enim tellus, vel ultrices dolor aliquam non."
+        para: "Whether is customer support or product development we put our hearts into it as if we are edveloping the products for ourselves."
     },
     {
         id: 5,
         title: "Build an inclusive, transparent and socially responsible culture",
-        para: "Maecenas eros sapien, egestas at elit nec, eleifend sagittis orci."
+        para: "Last but not the least we have created a culture of respect for all our employees in order to transparency and inclusivity."
     }
 ]
 
@@ -37,9 +37,9 @@ const AboutThree = () => {
         <div className="section section-padding bg-color-dark pb--80 pb_lg--40 pb_md--20">
             <div className="container">
                 <SectionTitle 
-                    subtitle="Our Valus"
+                    subtitle="Our Values"
                     title="Why should you work with us?"
-                    description="Nulla facilisi. Nullam in magna id dolor blandit rutrum eget vulputate augue sed eu leo eget risus imperdiet."
+                    description="100+ clients have trusted us with their projects because of the efficiency and efficacy we show in our work."
                     textAlignment="heading-left heading-light-left mb--100"
                     textColor=""
                 />
