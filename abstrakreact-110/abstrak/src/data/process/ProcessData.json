@@ -5,27 +5,27 @@
         "thumb": "/images/others/process-1.png",
         "subtitle": "Step One",
         "title": "Discover",
-        "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+        "paragraph": "Primarily we try to discover what's unique about your business and based on that uniqueness we begin our approach to your logo and that"
     },
     {
         "id": 2,
         "thumb": "/images/others/process-2.png",
         "subtitle": "Step Two",
         "title": "Prototype",
-        "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+        "paragraph": "We maintain an inventory of all the products we have developed, so we can utilize the best of their features."
     },
     {
         "id": 3,
         "thumb": "/images/others/process-3.png",
         "subtitle": "Step Three",
         "title": "Test",
-        "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+        "paragraph": "We put a lot of emphasis on the developers working together, which is why we deploy a very strong Test Driven Development approach in order to ensure the quality of our products."
     },
     {
         "id": 4,
         "thumb": "/images/others/process-4.png",
         "subtitle": "Step four",
         "title": "Build",
-        "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+        "paragraph": "Once all these steps are done we build and deploy the solution."
     }
 ]
