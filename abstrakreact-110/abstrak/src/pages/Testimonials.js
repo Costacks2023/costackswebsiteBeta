@@ -36,7 +36,7 @@ const Testimonials = () => {
                             <SectionTitle 
                                 subtitle=""
                                 title="Google Reviews"
-                                description="Nulla facilisi. Nullam in magna id dolor blandit rutrum eget vulputate augue sed eu leo eget risus imperdiet."
+                                description="Concise yet beautiful design, and impeccable development.."
                                 textAlignment="heading-left"
                                 textColor=""
                             />
@@ -60,7 +60,7 @@ const Testimonials = () => {
                             <SectionTitle 
                                 subtitle=""
                                 title="Facebook Reviews"
-                                description="Aenean hendrerit laoreet vehicula. Nullam convallis augue at enim gravida pellentesque."
+                                description="A very good website and a lot of help was received with the existing FB page of the business."
                                 textAlignment="heading-light-left"
                                 textColor=""
                             />
@@ -81,7 +81,7 @@ const Testimonials = () => {
                     </ul>
                 </div>
 
-                <div className="section section-padding customer-review-area">
+                {/* <div className="section section-padding customer-review-area">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-8">
@@ -103,7 +103,7 @@ const Testimonials = () => {
                             <TestimonialPropTwo colSize="col-lg-4" itemShow="3" testimonialData={yelpData} />
                         </div>
                     </div>
-                </div>
+                </div> */}
 
                 <CtaLayoutOne />
                 <FooterOne parentClass="" />

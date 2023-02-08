@@ -32,8 +32,7 @@ const ServiceOne = () => {
             <HeaderOne />
             <BcrumbBannerOne 
                 title="Best solutions for your business"
-                paragraph ="Give your business a unique logo to stand out from crowd. We’ll create logo specifically for your company.
-                "
+                paragraph ="Give your business a unique logo to stand out from crowd. We’ll create logo specifically for your company."
                 styleClass=""
                 mainThumb="/images/banner/banner-thumb-4.png"
             />

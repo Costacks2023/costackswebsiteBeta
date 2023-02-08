@@ -40,13 +40,13 @@ const Nav = () => {
                 <li className="menu-item-has-children">
                     <Link to="#">Pages <FaAngleDown /></Link>
                     <ul className="axil-submenu">
-                        <li><Link to={process.env.PUBLIC_URL + "/about-us"}>About Us</Link></li>
-                        <li><Link to={process.env.PUBLIC_URL + "/our-office"}>Our Office</Link></li>
-                        <li><Link to={process.env.PUBLIC_URL + "/our-clients"}>Our Clients</Link></li>
+                        <li><Link to={process.env.PUBLIC_URL + "/about-us"}>About Us</Link></li>    
                         <li><Link to={process.env.PUBLIC_URL + "/testimonials"}>Testimonial</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/pricing-table"}>Pricing Table</Link></li>
-                        <li><Link to={process.env.PUBLIC_URL + "/404"}>404 Page</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/coming-soon"}>Coming Soon</Link></li>
+                        {/* <li><Link to={process.env.PUBLIC_URL + "/our-office"}>Our Office</Link></li> */}
+                        {/* <li><Link to={process.env.PUBLIC_URL + "/our-clients"}>Our Clients</Link></li> */}
+                        {/* <li><Link to={process.env.PUBLIC_URL + "/404"}>404 Page</Link></li> */}
                         {/*<li><Link to={process.env.PUBLIC_URL + "/case-study"}>Case Study</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/case-details/whitehorse"}>Case Study Details</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/team"}>Team</Link></li>
@@ -54,18 +54,18 @@ const Nav = () => {
                         <li><Link to={process.env.PUBLIC_URL + "/typography"}>Typography</Link></li>*/}
                     </ul>
                 </li>
-                <li className="menu-item-has-children">
-                    {/*<Link to="#">Blog <FaAngleDown /></Link>*/}
+                {/* <li className="menu-item-has-children">
+                    <Link to="#">Blog <FaAngleDown /></Link>
                     <ul className="axil-submenu">
-                        {/*<li><Link to={process.env.PUBLIC_URL + "/blog-grid"}>Blog</Link></li>
+                        <li><Link to={process.env.PUBLIC_URL + "/blog-grid"}>Blog</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/blog-details/1"}>Standard Post</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/blog-details/2"}>Gallery Post</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/blog-details/3"}>Video Post</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "#"}>Audio Post</Link></li>
-                        <li><Link to={process.env.PUBLIC_URL + "#"}>Quote Post</Link></li> */}
+                        <li><Link to={process.env.PUBLIC_URL + "#"}>Quote Post</Link></li> 
                     </ul>
-                </li>
-                <li><Link to={process.env.PUBLIC_URL + "/contact"}>Contact</Link></li>
+                </li> */}
+                <li><Link to={process.env.PUBLIC_URL + "/contact"}>Contact Us</Link></li>
             </ul>
         </nav>
     )
